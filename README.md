@@ -71,7 +71,7 @@ a.	MergedDataSet:  When the CombineDatasets.ipynb file is run then a file test.c
 b.	Predictions: Two files would fall into this folder which would be discussed in the below sections. The first file is a .csv file containing predictions and the other one is is a .csv file which contains the probabilities of the predictions.
 c.	TestFileUpload: This is the folder in which you have to upload the .csv file for running the model.
 d.	features: This folder where you have the initial datasets given to us for building the model, however I did not add them in Git because of its size. Once downloading the repo you can place them here.
-e.	labels: The labels containing each of the test set’s target variable.
+e.	labels: The labels containing each of the test setâ€™s target variable.
 
 
 3.config Folder
@@ -96,6 +96,8 @@ How to get the predictions on test data.
 Please complete all the steps (1 to 5) in the Installation directory and once it is done, please get it into the command line/terminal and then cd into trained_models directory and then execute the below command. Once the below command is executed you can see the predictions in the predictions folder in the DataSets directory. You can use these files  to calculate metrics that you need like roc_auc and other metrics. As I do not have the test data target data I cannot calculate the predictions. 
 
 python predict.py
+
+
 Please Ignore any warning messages once the above command is executed.
 Note: Please make sure you put the .csv file on which you want to build the predictions in the TestFileUpload folder in DataSets folder in order to execute the above command.
 
